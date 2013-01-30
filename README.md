@@ -56,4 +56,8 @@ Order.SEQUENTIAL_DROPVIEW_LAST
 
 * [GNU General Public License, version 2](http://www.gnu.org/licenses/gpl-2.0.html)
 
+### Developed By
+
+* Poohdish Rattanavijai - [thisisrobg@gmail.com](mailto://thisisrobg@gmail.com) - [Google Plus](https://plus.google.com/113876984396791487117)
+
 
