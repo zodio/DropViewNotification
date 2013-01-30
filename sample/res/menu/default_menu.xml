@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_switch"
+            android:icon="@android:drawable/ic_media_next"
+            android:title="Switch to custom"
+            android:visible="true"
+            android:showAsAction="ifRoom" />
+</menu>

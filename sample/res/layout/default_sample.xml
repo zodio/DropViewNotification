@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CCabcdef">
+    <Button
+            android:id="@+id/btnShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="SHOW"
+            android:onClick="show"/>
+    <Button
+            android:id="@+id/btnDismiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnShow"
+            android:text="DISMISS"
+            android:onClick="dismiss"/>
+</RelativeLayout>
