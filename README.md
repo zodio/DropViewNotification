@@ -29,28 +29,28 @@ DropView can be shown or dismissed via DropViewController
 ### Example
 Default DropView showing transition. The content move down as DropView transitioning into the view.
 
-![Default showing transition effect](https://github.com/zodio/DropViewNotification/blob/master/res/default_transition_in.jpg "Default showing transition effect")
+![Default showing transition effect](https://github.com/zodio/DropViewNotification/master/res/default_transition_in.jpg "Default showing transition effect")
 
 Default DropView dismissing transition. The content move up just after DropView transitioning out of the view. `AnticipateInterpolator` is added to the content to add closing effect.
 
-![Default dismissing transition effect](https://github.com/zodio/DropViewNotification/blob/master/res/default_transition_out.jpg "Default dismissing transition effect")
+![Default dismissing transition effect](https://github.com/zodio/DropViewNotification/master/res/default_transition_out.jpg "Default dismissing transition effect")
 
 DropView is essentially a View object so you can put anything as long as it's a child of View. 
 
-![ProgressBar as DropView](https://github.com/zodio/DropViewNotification/blob/master/res/custom_progress.jpg "ProgressBar as DropView")
+![ProgressBar as DropView](https://github.com/zodio/DropViewNotification/master/res/custom_progress.jpg "ProgressBar as DropView")
 
 You can add your own animations as well using [DropViewConfigurator](https://github.com/zodio/DropViewNotification/library/src/com/dropview/DropViewController.java#DropViewConfigurator) and [OnDropViewAction](https://github.com/zodio/DropViewNotification/library/src/com/dropview/DropViewController.java#OnDropViewAction) interface
 
-![Custom animation out for DropView](https://github.com/zodio/DropViewNotification/blob/master/res/custom_transition_out.jpg "Custom animation out to fade DropView out but not moving it.")
+![Custom animation out for DropView](https://github.com/zodio/DropViewNotification/master/res/custom_transition_out.jpg "Custom animation out to fade DropView out but not moving it.")
 
 **DropViewConfigurator** Allow different animation sequence via `Order` method. You can choose to synchronize the animation by using Order.SYNCHRONOUS or using other options provided.
 Order.SEQUENTIAL_DROPVIEW_FIRST
  
-![DropView first order](https://github.com/zodio/DropViewNotification/blob/master/res/custom_media_first_in.jpg "DropView first order will animate content view after DropView's animation has completed.")
+![DropView first order](https://github.com/zodio/DropViewNotification/master/res/custom_media_first_in.jpg "DropView first order will animate content view after DropView's animation has completed.")
 
 Order.SEQUENTIAL_DROPVIEW_LAST 
 
-![DropView last order](https://github.com/zodio/DropViewNotification/blob/master/res/custom_media_last_in.jpg "DropView last order will animate DropView after content view's animation has completed.")
+![DropView last order](https://github.com/zodio/DropViewNotification/master/res/custom_media_last_in.jpg "DropView last order will animate DropView after content view's animation has completed.")
 
 ### License
 
